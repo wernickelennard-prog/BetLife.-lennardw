@@ -3,14 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>BetLife</title>
-<meta name="application-name" content="BetLife">
+<title>BestLife</title>
+<meta name="application-name" content="BestLife">
 <meta name="theme-color" content="#0C0C0F">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="BetLife">
-<link rel="manifest" href="data:application/json,{%22name%22:%22BetLife%22,%22short_name%22:%22BetLife%22,%22start_url%22:%22.%22,%22display%22:%22standalone%22,%22background_color%22:%22%230C0C0F%22,%22theme_color%22:%22%230C0C0F%22,%22icons%22:[{%22src%22:%22data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cdefs%3E%3CradialGradient id='g' cx='30%25' cy='30%25'%3E%3Cstop offset='0' stop-color='%23181820'/%3E%3Cstop offset='100%25' stop-color='%230C0C0F'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect width='512' height='512' rx='110' fill='url(%23g)'/%3E%3Crect x='1' y='1' width='510' height='510' rx='109' fill='none' stroke='%23C8F03C' stroke-width='6' stroke-opacity='.15'/%3E%3Ccircle cx='380' cy='130' r='60' fill='%23C8F03C' fill-opacity='.04'/%3E%3Ctext x='256' y='318' text-anchor='middle' font-family='Georgia,serif' font-weight='900' font-size='205' letter-spacing='-5'%3E%3Ctspan fill='%23F0EFE8'%3EBet%3C/tspan%3E%3Ctspan fill='%23C8F03C'%3ELife%3C/tspan%3E%3C/text%3E%3C/svg%3E%22,%22sizes%22:%22512x512%22,%22type%22:%22image/svg+xml%22,%22purpose%22:%22any maskable%22}]}">
+<meta name="apple-mobile-web-app-title" content="BestLife">
+<link rel="manifest" href="data:application/json,{%22name%22:%22BestLife%22,%22short_name%22:%22BestLife%22,%22start_url%22:%22.%22,%22display%22:%22standalone%22,%22background_color%22:%22%230C0C0F%22,%22theme_color%22:%22%230C0C0F%22,%22icons%22:[{%22src%22:%22data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cdefs%3E%3CradialGradient id='g' cx='30%25' cy='30%25'%3E%3Cstop offset='0' stop-color='%23181820'/%3E%3Cstop offset='100%25' stop-color='%230C0C0F'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect width='512' height='512' rx='110' fill='url(%23g)'/%3E%3Crect x='1' y='1' width='510' height='510' rx='109' fill='none' stroke='%23C8F03C' stroke-width='6' stroke-opacity='.15'/%3E%3Ccircle cx='380' cy='130' r='60' fill='%23C8F03C' fill-opacity='.04'/%3E%3Ctext x='256' y='318' text-anchor='middle' font-family='Georgia,serif' font-weight='900' font-size='205' letter-spacing='-5'%3E%3Ctspan fill='%23F0EFE8'%3EBet%3C/tspan%3E%3Ctspan fill='%23C8F03C'%3ELife%3C/tspan%3E%3C/text%3E%3C/svg%3E%22,%22sizes%22:%22512x512%22,%22type%22:%22image/svg+xml%22,%22purpose%22:%22any maskable%22}]}">
 <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cdefs%3E%3CradialGradient id='g' cx='30%25' cy='30%25'%3E%3Cstop offset='0' stop-color='%23181820'/%3E%3Cstop offset='100%25' stop-color='%230C0C0F'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect width='512' height='512' rx='110' fill='url(%23g)'/%3E%3Crect x='1' y='1' width='510' height='510' rx='109' fill='none' stroke='%23C8F03C' stroke-width='6' stroke-opacity='.15'/%3E%3Ccircle cx='380' cy='130' r='60' fill='%23C8F03C' fill-opacity='.04'/%3E%3Ctext x='256' y='318' text-anchor='middle' font-family='Georgia,serif' font-weight='900' font-size='205' letter-spacing='-5'%3E%3Ctspan fill='%23F0EFE8'%3EBet%3C/tspan%3E%3Ctspan fill='%23C8F03C'%3ELife%3C/tspan%3E%3C/text%3E%3C/svg%3E">
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
 <style>
@@ -300,7 +300,7 @@ svg { display: block; }
 
   <div class="hdr" style="gap:8px">
     <div style="flex:1;min-width:0">
-      <div class="logo">Bet<em>Life</em></div>
+      <div class="logo">Be<em>s</em>t<em>Life</em></div>
       <div class="greet" id="greet">Guten Tag</div>
     </div>
     <div id="weatherWidget" style="display:flex;align-items:center;gap:5px;padding:5px 9px;background:var(--s1);border:1px solid var(--b1);border-radius:var(--rs);cursor:pointer;flex-shrink:0" onclick="fetchWeather()">
@@ -336,6 +336,12 @@ svg { display: block; }
     <!-- EINKAUF -->
     <div class="page show" id="p0">
       <div class="pcard"><svg class="pring" viewBox="0 0 48 48"><circle cx="24" cy="24" r="19" fill="none" stroke="rgba(200,240,60,.15)" stroke-width="3"/><circle id="pc" cx="24" cy="24" r="19" fill="none" stroke="#C8F03C" stroke-width="3" stroke-dasharray="119.4" stroke-dashoffset="59.7" stroke-linecap="round" transform="rotate(-90 24 24)"/><text id="pp" x="24" y="29" text-anchor="middle" fill="#C8F03C" font-family="Syne,sans-serif" font-size="13" font-weight="700">50%</text></svg><div class="ptxt"><h3 id="pl">5 von 10 erledigt</h3><p id="ps">Weiter so!</p></div></div>
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px">
+        <div style="font-family:'Syne',sans-serif;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--mu)">Artikel</div>
+        <div id="openAddModal" style="width:34px;height:34px;border-radius:50%;background:var(--ac);display:flex;align-items:center;justify-content:center;cursor:pointer;flex-shrink:0">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </div>
+      </div>
       <div class="sec cg" id="sg"><div class="sechd"><div class="secdot"></div><span class="sectit">Obst &amp; Gemüse</span></div>
       </div>
       <div class="sec ct" id="sb"><div class="sechd"><div class="secdot"></div><span class="sectit">Milchprodukte</span></div>
@@ -344,8 +350,15 @@ svg { display: block; }
       </div>
       <div class="sec cp" id="sp"><div class="sechd"><div class="secdot"></div><span class="sectit">Getränke</span></div>
       </div>
+      <div class="sec" id="sm"><div class="sechd"><div class="secdot" style="background:#F05A3C"></div><span class="sectit">Fleisch &amp; Fisch</span></div>
+      </div>
+      <div class="sec" id="ssnack"><div class="sechd"><div class="secdot" style="background:#F0A030"></div><span class="sectit">Snacks</span></div>
+      </div>
+      <div class="sec" id="stk"><div class="sechd"><div class="secdot" style="background:#60C8F0"></div><span class="sectit">Tiefkühl</span></div>
+      </div>
+      <div class="sec" id="sau"><div class="sechd"><div class="secdot" style="background:#C8A060"></div><span class="sectit">Aufstrich</span></div>
+      </div>
       <div class="sec" id="sother" style="display:none"><div class="sechd"><div class="secdot" style="background:var(--mu)"></div><span class="sectit">Sonstiges</span></div></div>
-      <button class="addbtn" id="openAddModal" style="width:100%;height:48px;border-radius:var(--rs);font-family:'Syne',sans-serif;font-size:14px;font-weight:700;margin-top:4px">+ Artikel hinzufügen</button>
     </div>
     <!-- MAHLZEITEN -->
     <div class="page" id="p1">
@@ -426,20 +439,18 @@ svg { display: block; }
     </div>
     <!-- HAUSHALT -->
     <div class="page" id="p2">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px">
+        <div style="font-family:'Syne',sans-serif;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--mu)">Aufgaben</div>
+        <div id="openTodoModal" style="width:34px;height:34px;border-radius:50%;background:var(--ac);display:flex;align-items:center;justify-content:center;cursor:pointer;flex-shrink:0">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </div>
+      </div>
       <div class="sec cc" id="stoday"><div class="sechd"><div class="secdot"></div><span class="sectit">Heute fällig</span></div>
-        <div class="todo"><div class="tchk"><div class="tcm"></div></div><div class="iinfo"><div class="tname">Küche putzen</div><div class="tsub">Jeden Montag</div></div><div class="bdg br">Heute</div></div>
-        <div class="todo"><div class="tchk"><div class="tcm"></div></div><div class="iinfo"><div class="tname">Wäsche waschen</div><div class="tsub">Dunkel &amp; Hell trennen</div></div><div class="bdg br">Heute</div></div>
       </div>
       <div class="sec ca"><div class="sechd"><div class="secdot"></div><span class="sectit">Diese Woche</span></div>
-        <div class="todo"><div class="tchk"><div class="tcm"></div></div><div class="iinfo"><div class="tname">Badezimmer putzen</div><div class="tsub">Alle 2 Wochen</div></div><div class="bdg ba">Mi</div></div>
-        <div class="todo"><div class="tchk"><div class="tcm"></div></div><div class="iinfo"><div class="tname">Pflanzen gießen</div><div class="tsub">Alle 3 Tage</div></div><div class="bdg ba">Do</div></div>
-        <div class="todo done"><div class="tchk on"><div class="tcm"></div></div><div class="iinfo"><div class="tname">Staubsaugen</div><div class="tsub">Wohnzimmer &amp; Flur</div></div></div>
       </div>
       <div class="sec ct"><div class="sechd"><div class="secdot"></div><span class="sectit">Diesen Monat</span></div>
-        <div class="todo"><div class="tchk"><div class="tcm"></div></div><div class="iinfo"><div class="tname">Fenster putzen</div><div class="tsub">Innen &amp; Außen</div></div><div class="bdg bx">April</div></div>
-        <div class="todo"><div class="tchk"><div class="tcm"></div></div><div class="iinfo"><div class="tname">Kühlschrank reinigen</div><div class="tsub">Abläufe &amp; Fächer</div></div><div class="bdg bx">April</div></div>
       </div>
-      <button class="addbtn" id="openTodoModal" style="width:100%;height:48px;border-radius:var(--rs);font-family:'Syne',sans-serif;font-size:14px;font-weight:700;margin-top:4px">+ Aufgabe hinzufügen</button>
     </div>
     <!-- TANKEN -->
     <div class="page" id="p3">
@@ -699,7 +710,7 @@ svg { display: block; }
         <!-- Slide 1: Willkommen -->
         <div style="min-width:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:32px 28px;text-align:center">
           <div style="font-size:72px;margin-bottom:20px;line-height:1">👋</div>
-          <div style="font-family:'Syne',sans-serif;font-size:26px;font-weight:800;color:var(--tx);margin-bottom:12px">Willkommen bei <span style="color:var(--ac)">BetLife</span></div>
+          <div style="font-family:'Syne',sans-serif;font-size:26px;font-weight:800;color:var(--tx);margin-bottom:12px">Willkommen bei <span style="color:var(--tx)">Be</span><span style="color:var(--ac)">s</span><span style="color:var(--tx)">t</span><span style="color:var(--ac)">Life</span></div>
           <div style="font-size:14px;color:var(--mu);line-height:1.7;max-width:280px">Dein smarter Alltags-Begleiter. In wenigen Schritten zeigen wir dir wie alles funktioniert.</div>
         </div>
 
@@ -728,7 +739,7 @@ svg { display: block; }
         <div style="min-width:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:32px 28px;text-align:center">
           <div style="font-size:72px;margin-bottom:20px;line-height:1">🚀</div>
           <div style="font-family:'Syne',sans-serif;font-size:22px;font-weight:800;color:var(--tx);margin-bottom:12px">Bereit!</div>
-          <div style="font-size:14px;color:var(--mu);line-height:1.7;max-width:280px">Das war's schon! Du kannst das Tutorial jederzeit in den <strong style="color:var(--tx)">Einstellungen ⚙️</strong> erneut aufrufen.<br><br>Viel Spaß mit BetLife!</div>
+          <div style="font-size:14px;color:var(--mu);line-height:1.7;max-width:280px">Das war's schon! Du kannst das Tutorial jederzeit in den <strong style="color:var(--tx)">Einstellungen ⚙️</strong> erneut aufrufen.<br><br>Viel Spaß mit BestLife!</div>
           <button onclick="closeTutorial()" style="margin-top:28px;padding:14px 40px;background:var(--ac);border:none;border-radius:99px;font-family:'Syne',sans-serif;font-size:16px;font-weight:700;color:#000;cursor:pointer">Los geht's!</button>
         </div>
 
@@ -844,7 +855,14 @@ svg { display: block; }
     </div>
   </div>
   <div class="ov" id="ovRecipe">
-    <div class="ovhd"><div class="back" id="backRecipe"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg></div><div class="ovtit" id="recipeTit">Rezept</div></div>
+    <div class="ovhd"><div class="back" id="backRecipe"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg></div><div class="ovtit" id="recipeTit">Rezept</div>
+    <!-- Personen Anzahl -->
+    <div style="display:flex;align-items:center;gap:6px;margin-left:auto;flex-shrink:0">
+      <div onclick="changePortions(-1)" style="width:28px;height:28px;border-radius:50%;background:var(--s2);border:1px solid var(--b2);display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:16px;font-weight:700;color:var(--tx)">−</div>
+      <div style="font-family:'Syne',sans-serif;font-size:13px;font-weight:700;color:var(--tx);min-width:28px;text-align:center"><span id="portionCount">2</span> <span style="font-size:10px;color:var(--mu)">Pers.</span></div>
+      <div onclick="changePortions(1)" style="width:28px;height:28px;border-radius:50%;background:var(--s2);border:1px solid var(--b2);display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:16px;font-weight:700;color:var(--tx)">+</div>
+    </div>
+    </div>
     <div class="ovbody" id="recipeBody"></div>
   </div>
   <!-- EIGENES REZEPT HINZUFÜGEN OVERLAY -->
@@ -960,7 +978,7 @@ const T = {
 function t(key){ return T[lang][key] || T['de'][key] || key; }
 
 
-const CATS=[{id:'sg',label:'Obst & Gemüse',color:'#3CF0A0',keywords:['apfel','birne','banane','tomate','karotte','salat','gurke','zwiebel','paprika','zucchini','spinat','brokkoli','beere','zitrone','avocado','knoblauch','ingwer','sellerie','kartoffel','pilz']},{id:'sb',label:'Milchprodukte',color:'#3CF0C8',keywords:['milch','käse','butter','joghurt','camembert','gouda','quark','sahne','brie','kefir','mozzarella','parmesan','frischkäse','pecorino']},{id:'sam',label:'Brot & Backwaren',color:'#F0C83C',keywords:['brot','brötchen','croissant','toast','semmel','kuchen','mehl','backpulver','hefe']},{id:'sp',label:'Getränke',color:'#9B6EFA',keywords:['wasser','saft','bier','wein','cola','limonade','kaffee','tee','kakao','energy']},{id:'sm',label:'Fleisch & Fisch',color:'#F05A3C',keywords:['hähnchen','fleisch','hack','wurst','speck','fisch','lachs','thunfisch','schinken','salami']},{id:'sother',label:'Sonstiges',color:'#888',keywords:[]}];
+const CATS=[{id:'sg',label:'Obst & Gemüse',color:'#3CF0A0',keywords:['apfel','birne','banane','tomate','karotte','salat','gurke','zwiebel','paprika','zucchini','spinat','brokkoli','beere','zitrone','avocado','knoblauch','ingwer','sellerie','kartoffel','pilz']},{id:'sb',label:'Milchprodukte',color:'#3CF0C8',keywords:['milch','käse','butter','joghurt','camembert','gouda','quark','sahne','brie','kefir','mozzarella','parmesan','frischkäse','pecorino']},{id:'sam',label:'Brot & Backwaren',color:'#F0C83C',keywords:['brot','brötchen','croissant','toast','semmel','kuchen','mehl','backpulver','hefe']},{id:'sp',label:'Getränke',color:'#9B6EFA',keywords:['wasser','saft','bier','wein','cola','limonade','kaffee','tee','kakao','energy']},{id:'sm',label:'Fleisch & Fisch',color:'#F05A3C',keywords:['hähnchen','fleisch','hack','wurst','speck','fisch','lachs','thunfisch','schinken','salami']},{id:'ssnack',label:'Snacks',color:'#F0A030',keywords:['chips','schokolade','gummibärchen','keks','riegel','popcorn','nuss','mandel','erdnuss','cracker','müsliriegel','bonbon','lakritz','praline']},{id:'stk',label:'Tiefkühl',color:'#60C8F0',keywords:['tiefkühl','gefroren','pizza','eis','pommes','nuggets','spinat tiefkühl','erbsen','bohnen tiefkühl','fischstäbchen']},{id:'sau',label:'Aufstrich',color:'#C8A060',keywords:['aufstrich','marmelade','honig','nutella','erdnussbutter','frischkäse aufstrich','leberwurst','hummus','pesto','senf','ketchup','mayonnaise']},{id:'sother',label:'Sonstiges',color:'#888',keywords:[]}];
 const FUEL={E5:{p:['1,749','1,779','1,799','1,829'],hero:'1,749',sub:'JET · Silstedter Str. 32',hint:'Super E5 hat max. 5% Bioethanol — geeignet für alle Benziner.'},E10:{p:['1,719','1,749','1,769','1,799'],hero:'1,719',sub:'JET · Silstedter Str. 32',hint:'Super E10 enthält 10% Bioethanol — günstiger, aber nicht für alle Autos.'},SP:{p:['1,919','1,949','1,969','1,999'],hero:'1,919',sub:'JET · Silstedter Str. 32',hint:'Super Plus 98 Oktan — für sportliche Motoren.'},D:{p:['1,669','1,689','1,709','1,729'],hero:'1,669',sub:'JET · Silstedter Str. 32',hint:'Diesel (B7) — ausschließlich für Dieselmotoren!'},LPG:{p:['0,899','0,929','0,949','0,979'],hero:'0,899',sub:'Shell · Quedlinburger Str. 100',hint:'Autogas LPG — günstiger, aber nicht überall verfügbar.'}};
 const MARKTS=[{id:'rewe',name:'REWE',sub:'Obst → Gemüse → Milch → Fleisch → Kasse'},{id:'aldi',name:'ALDI',sub:'Obst → Brot → Tiefkühl → Kühl → Kasse'},{id:'lidl',name:'Lidl',sub:'Obst → Aktionen → Kühlregal → Kasse'},{id:'edeka',name:'EDEKA',sub:'Obst → Frische → Milch → Fleisch → Kasse'},{id:'penny',name:'PENNY',sub:'Obst → Tiefkühl → Kühl → Kasse'},{id:'netto',name:'Netto',sub:'Obst → Mitte → Kühl → Kasse'},{id:'kl',name:'Kaufland',sub:'Obst → Fleisch → Milch → Non-Food → Kasse'},{id:'marktkauf',name:'Marktkauf',sub:'Obst → Gemüse → Metzger → Milch → Kasse'},{id:'norma',name:'Norma',sub:'Obst → Brot → Kühl → Mitte → Kasse'}];
 const FUEL_NAMES={E5:'Super E5',E10:'Super E10',SP:'Super Plus',D:'Diesel',LPG:'Autogas LPG'};
@@ -1092,10 +1110,10 @@ document.getElementById('smi-email').addEventListener('click',()=>{
   };
 
   const name = backup.profil.vorname ? backup.profil.vorname + ' ' : '';
-  const subject = encodeURIComponent(`BetLife Backup — ${backup.date}`);
+  const subject = encodeURIComponent(`BestLife Backup — ${backup.date}`);
 
   // Build readable body
-  let body = `BetLife Backup — ${backup.date}\n`;
+  let body = `BestLife Backup — ${backup.date}\n`;
   body += `${'─'.repeat(40)}\n\n`;
 
   body += `👤 PROFIL\n`;
@@ -1269,7 +1287,63 @@ document.querySelectorAll('#todoCatsInterval .catbtn').forEach(btn=>{
 document.getElementById('todoName').addEventListener('keydown',e=>{if(e.key==='Enter')document.getElementById('confirmTodo').click();});
 
 // RECIPES
-document.getElementById('p1').addEventListener('click',e=>{const card=e.target.closest('[data-recipe]');if(!card)return;const r=RECIPES[card.dataset.recipe];if(!r)return;document.getElementById('recipeTit').textContent=r.t;let h=`<div class="rmeta">${r.m.map(m=>`<div class="bdg ${m.c}">${m.l}</div>`).join('')}</div>`;h+=`<button onclick="addIngredientsToList(${JSON.stringify(r.i).replace(/"/g,"'")})" style="width:100%;padding:12px;background:var(--ad);border:1px solid rgba(200,240,60,.25);border-radius:var(--rs);color:var(--ac);font-family:'Syne',sans-serif;font-size:13px;font-weight:700;cursor:pointer;margin-bottom:14px;display:flex;align-items:center;justify-content:center;gap:8px"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>Zutaten auf Einkaufsliste</button>`;h+=`<div class="rsect"><div class="rstit">Zutaten</div>`;r.i.forEach(([n,a])=>{h+=`<div class="ing"><div class="ingdot"></div><div class="ingname">${n}</div><div class="ingamt">${a}</div></div>`;});h+=`</div><div class="rsect"><div class="rstit">Zubereitung</div>`;r.s.forEach((s,i)=>{h+=`<div class="step" style="animation-delay:${i*.06}s"><div class="stepn">${i+1}</div><div class="stepbody"><div class="steplbl">${s.l}</div><div class="steptxt">${s.t}${s.d?`<div class="steptime">⏱ ${s.d}</div>`:''}</div></div></div>`;});h+=`</div>`;document.getElementById('recipeBody').innerHTML=h;document.getElementById('ovRecipe').querySelector('.ovbody').scrollTop=0;openOv('ovRecipe');});
+let currentPortions = 2;
+let currentRecipeData = null;
+
+function changePortions(delta) {
+  currentPortions = Math.max(1, Math.min(12, currentPortions + delta));
+  document.getElementById('portionCount').textContent = currentPortions;
+  if(currentRecipeData) renderRecipeIngredients(currentRecipeData);
+}
+
+function scaleAmount(amtStr, portions, basePortion) {
+  if(!amtStr || amtStr === '–' || amtStr === '') return amtStr;
+  // Extract number and unit
+  const match = amtStr.match(/^([\d,\.]+)\s*(.*)$/);
+  if(!match) return amtStr;
+  const num = parseFloat(match[1].replace(',','.'));
+  if(isNaN(num)) return amtStr;
+  const unit = match[2];
+  const scaled = (num / basePortion) * portions;
+  // Format nicely
+  const fmt = scaled % 1 === 0 ? scaled.toString() : (Math.round(scaled * 4) / 4).toFixed(2).replace('.00','').replace(/\.?0+$/,'').replace('.',',');
+  return `${fmt}${unit ? ' '+unit : ''}`;
+}
+
+function renderRecipeIngredients(r) {
+  const base = r.basePortions || 2;
+  let ingHtml = '';
+  r.i.forEach(([n,a])=>{
+    const scaled = scaleAmount(a, currentPortions, base);
+    ingHtml += `<div class="ing"><div class="ingdot"></div><div class="ingname">${n}</div><div class="ingamt" style="transition:all .2s">${scaled}</div></div>`;
+  });
+  const ingSection = document.querySelector('#recipeBody .rsect');
+  if(ingSection) {
+    const ingContainer = ingSection.querySelectorAll('.ing');
+    ingContainer.forEach((el, i) => {
+      const amtEl = el.querySelector('.ingamt');
+      if(amtEl && r.i[i]) amtEl.textContent = scaleAmount(r.i[i][1], currentPortions, base);
+    });
+  }
+}
+
+document.getElementById('p1').addEventListener('click',e=>{const card=e.target.closest('[data-recipe]');if(!card)return;const r=RECIPES[card.dataset.recipe];if(!r)return;
+  currentRecipeData = r;
+  currentPortions = 2;
+  document.getElementById('portionCount').textContent = currentPortions;
+  document.getElementById('recipeTit').textContent=r.t;
+  const base = r.basePortions || 2;
+  let h=`<div class="rmeta">${r.m.map(m=>`<div class="bdg ${m.c}">${m.l}</div>`).join('')}</div>`;
+  h+=`<button onclick="addIngredientsToList(${JSON.stringify(r.i).replace(/"/g,"'")})" style="width:100%;padding:12px;background:var(--ad);border:1px solid rgba(200,240,60,.25);border-radius:var(--rs);color:var(--ac);font-family:'Syne',sans-serif;font-size:13px;font-weight:700;cursor:pointer;margin-bottom:14px;display:flex;align-items:center;justify-content:center;gap:8px"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>Zutaten auf Einkaufsliste</button>`;
+  h+=`<div class="rsect"><div class="rstit">Zutaten</div>`;
+  r.i.forEach(([n,a])=>{const scaled=scaleAmount(a,currentPortions,base);h+=`<div class="ing"><div class="ingdot"></div><div class="ingname">${n}</div><div class="ingamt">${scaled}</div></div>`;});
+  h+=`</div><div class="rsect"><div class="rstit">Zubereitung</div>`;
+  r.s.forEach((s,i)=>{h+=`<div class="step" style="animation-delay:${i*.06}s"><div class="stepn">${i+1}</div><div class="stepbody"><div class="steplbl">${s.l}</div><div class="steptxt">${s.t}${s.d?`<div class="steptime">⏱ ${s.d}</div>`:''}</div></div></div>`;});
+  h+=`</div>`;
+  document.getElementById('recipeBody').innerHTML=h;
+  document.getElementById('ovRecipe').querySelector('.ovbody').scrollTop=0;
+  openOv('ovRecipe');
+});
 
 // WETTER
 const WMO={0:'☀️',1:'🌤️',2:'⛅',3:'☁️',45:'🌫️',51:'🌦️',61:'🌧️',71:'❄️',80:'🌦️',95:'⛈️'};
@@ -1397,6 +1471,14 @@ try{loadSettings();}catch(e){}
       if(hasPresets) {
         localStorage.removeItem('betlife_einkauf');
       }
+      // Clear preset todos too
+      try {
+        const oldTodos = JSON.parse(localStorage.getItem('betlife_todos') || '[]');
+        const todoPresets = ['Küche putzen','Wäsche waschen','Badezimmer putzen','Pflanzen gießen','Staubsaugen','Fenster putzen','Kühlschrank reinigen'];
+        if(oldTodos.some(t => todoPresets.includes(t.name))) {
+          localStorage.removeItem('betlife_todos');
+        }
+      } catch(e) {}
     } catch(e) {}
     localStorage.setItem('betlife_cleared_v2', '1');
   }
@@ -1422,7 +1504,7 @@ function applyLang(){
   const addInp = document.getElementById('itemName');
   if(addInp) addInp.placeholder = L.addPlaceholder;
   const addBtn = document.getElementById('openAddModal');
-  if(addBtn) addBtn.textContent = L.addBtn;
+  if(addBtn) addBtn.title = L.addBtn;
   // Section titles
   const secMap = {sg:'secObst',sb:'secMilch',sam:'secBrot',sp:'secGetraenke',sm:'secFleisch',sother:'secSonstiges'};
   Object.entries(secMap).forEach(([id,key])=>{
@@ -1541,7 +1623,8 @@ function setLang(l){
     <div id="splashLogo" style="display:flex;align-items:baseline;gap:0;margin-bottom:10px;line-height:1">
       <span id="sB" style="font-family:'Georgia',serif;font-weight:900;font-size:72px;color:#F0EFE8;opacity:0;display:inline-block">B</span>
       <span id="sE" style="font-family:'Georgia',serif;font-weight:900;font-size:72px;color:#F0EFE8;opacity:0;display:inline-block">e</span>
-      <span id="sT" style="font-family:'Georgia',serif;font-weight:900;font-size:72px;color:#F0EFE8;opacity:0;display:inline-block;margin-right:4px">t</span>
+      <span id="sT" style="font-family:'Georgia',serif;font-weight:900;font-size:72px;color:#C8F03C;opacity:0;display:inline-block">s</span>
+      <span id="sTT" style="font-family:'Georgia',serif;font-weight:900;font-size:72px;color:#F0EFE8;opacity:0;display:inline-block;margin-right:4px">t</span>
       <span id="sL" style="font-family:'Georgia',serif;font-weight:900;font-size:72px;color:#C8F03C;opacity:0;display:inline-block">L</span>
       <span id="sI" style="font-family:'Georgia',serif;font-weight:900;font-size:72px;color:#C8F03C;opacity:0;display:inline-block">i</span>
       <span id="sF" style="font-family:'Georgia',serif;font-weight:900;font-size:72px;color:#C8F03C;opacity:0;display:inline-block">f</span>
@@ -1563,7 +1646,7 @@ function setLang(l){
   document.querySelector('.phone').appendChild(splash);
 
   // Animate each letter with stagger
-  const letters = ['sB','sE','sT','sL','sI','sF','sEE'];
+  const letters = ['sB','sE','sT','sTT','sL','sI','sF','sEE'];
   letters.forEach((id, i) => {
     setTimeout(()=>{
       const el = document.getElementById(id);
@@ -1920,7 +2003,7 @@ function setLang(l){
   }
 
   window.buyPowerup = function(type) {
-    if(state !== 'running') { showShopMsg('Erst Spiel starten!'); return; }
+    if(state === 'running') { showShopMsg('⏸ Pausiere erst das Spiel!'); return; }
     if(totalCoins < COSTS[type]) { showShopMsg('Zu wenig €-Münzen!'); return; }
     if(powerup) { showShopMsg('Power-up läuft schon!'); return; }
     totalCoins -= COSTS[type];
